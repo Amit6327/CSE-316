@@ -1,0 +1,25 @@
+TEST CASE 2:
+INPUT==
+Enter the No. of processes in Queue :2
+
+For P1
+Arrival time:0
+
+ Arrival time should not be zero!!!! Re-enter the correct arrival time
+Arrival time:90
+Burst Time:180
+----------------------------------------
+For P2
+Arrival time:180
+Burst Time:360
+
+
+OUTPUT==
+RESULT:-
+Process  Burst   Arrival         Waiting         Turn-around
+ p1      180     90              0                      90
+ p2      360     180             180                    360
+
+AVERAGE WAITING TIME : 90.000000
+AVERAGE TURN AROUND TIME : 225.000000
+
