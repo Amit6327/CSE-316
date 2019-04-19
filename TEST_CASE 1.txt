@@ -1,0 +1,26 @@
+TEST CASE 1:
+INPUT==
+-------Shortest Job First Scheduling ( Non-Preemtitive )-------
+
+Enter the No. of processes in Queue :2
+
+For P1
+Arrival time:30
+Burst Time:60
+----------------------------------------
+For P2
+Arrival time:
+
+
+60
+Arrival time:Burst Time:120
+----------------------------------------
+
+OUTPUT==
+RESULT:-
+Process  Burst   Arrival         Waiting         Turn-around
+ p1      60      30              0                      30
+ p2      120     60              60                     120
+
+AVERAGE WAITING TIME : 30.000000
+AVERAGE TURN AROUND TIME : 75.000000
